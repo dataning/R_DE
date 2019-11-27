@@ -15,7 +15,9 @@ link-citations: yes
 description: "This is a minimal example of training people to start doing data analytic in R."
 ---
 
-# Knowledge is sharing. 
+# How R you?  
+
+> A hero is somebody who voluntarily walks into the unknown. To become a hero in R, you have to voluntarily walk into the unknown of R and the world of data science.  
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
 
