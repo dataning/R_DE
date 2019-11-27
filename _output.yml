@@ -1,6 +1,6 @@
 bookdown::gitbook:
   css: style.css
-  config:
+  config: 
     toc:
       before: |
         <li><a href="./">To become a hero in R</a></li>
