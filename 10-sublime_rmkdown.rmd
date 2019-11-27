@@ -1,0 +1,19 @@
+# RMarkdown with Sublime
+
+One of the best things for R markdown is that you can write and code on the same surface. However, the interface of RStudio feels like more "brief writing" than "proper writing". For all the writing, I prefer to do it in Sublime because it's fast and code-integrated. 
+
+The way to do is to install `R-box` and `knitr` in the Sumline. 
+
+- Shift + CMD + P
+- Select `R-box` or `knitr` packages
+- Once the installation is finished, please make sure the file type is R Markdown from the bottom right corner. 
+- You should provide a basic YAML setting for your R markdown. 
+
+```{r eval=FALSE}
+---
+title: Lens and Movements Piloting (LAMP)
+author: Lawrence Ning
+date: March 22, 2005
+output: pdf_document
+--- 
+```

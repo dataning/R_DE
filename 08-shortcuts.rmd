@@ -1,0 +1,46 @@
+# Shortcuts
+
+## Code section 
+
+- Insert Section — Ctrl+Shift+R (Cmd+Shift+R on the Mac)
+- Jump To — Shift+Alt+J
+
+[RStudio Addin - creates boxed in titles in an Rscript](https://github.com/ThinkR-open/littleboxes)
+```
+devtools::install_github("ThinkR-open/littleboxes")
+```
+
+https://riptutorial.com/r/example/13622/assignment-with-----
+
+https://style.tidyverse.org/pipes.html
+
+## Tidyverse
+
+### "%>%"
+- "Insert %>%" inserts "%>%" (Shift-ALT-m or Shift-cmd-m
+
+One is to create a new dataset and the other one is to re-assign the new data elements into an existing dataset. 
+```
+db <- df %>% 
+	  select(1:3) %>% 
+	  filter(mpg > 20, cyl == 6)
+
+df %<>% select(1:3) %>%
+		filter(mpg > 20, cyl == 6)
+```
+
+
+```
+# Good
+iris %>%
+  group_by(Species) %>%
+  summarize_if(is.numeric, mean) %>%
+  ungroup() %>%
+  gather(measure, value, -Species) %>%
+  arrange(value)
+
+# Bad
+iris %>% group_by(Species) %>% summarize_all(mean) %>%
+ungroup %>% gather(measure, value, -Species) %>%
+arrange(value)
+```
