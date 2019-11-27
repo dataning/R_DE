@@ -3,7 +3,7 @@ title: Introduction to Data Science with R
 author:
   - name: Ning Lu
     affiliation: Bradford Institute of Health Research (BIHR)
-  - name: Bradford Teaching Hospitals NHS Foundation Trust (BTHNFT)
+  - name: Bradford Teaching Hospitals NHS Foundation Trust (BTHFT)
     affiliation: Centre for Applied Education Research (CAER)
   - name: Leeds Institute for Data Analytics, University of Leeds (LIDA)
 date: "`r Sys.Date()`"
