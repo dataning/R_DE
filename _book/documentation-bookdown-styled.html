@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Ch 3 Documentation - bookdown-styled | Introduction to Data Science with R</title>
+  <title>Chapter 3 Documentation - bookdown-styled | Introduction to Data Science with R</title>
   <meta name="description" content="This is a minimal example of training people to start doing data analytic in R." />
   <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Ch 3 Documentation - bookdown-styled | Introduction to Data Science with R" />
+  <meta property="og:title" content="Chapter 3 Documentation - bookdown-styled | Introduction to Data Science with R" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Ch 3 Documentation - bookdown-styled | Introduction to Data Science with R" />
+  <meta name="twitter:title" content="Chapter 3 Documentation - bookdown-styled | Introduction to Data Science with R" />
   
   <meta name="twitter:description" content="This is a minimal example of training people to start doing data analytic in R." />
   
@@ -127,7 +127,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">A Minimal Book Example</a></li>
+<li><a href="./">To become a hero in R</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Knowledge is sharing.</a></li>
@@ -152,7 +152,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="9" data-path="rmarkdown-with-sublime.html"><a href="rmarkdown-with-sublime.html"><i class="fa fa-check"></i><b>9</b> RMarkdown with Sublime</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with Hero Lab</a></li>
 
 </ul>
 
@@ -172,89 +172,89 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
             <section class="normal" id="section-">
 <div id="documentation---bookdown-styled" class="section level1">
-<h1><span class="header-section-number">Ch 3</span> Documentation - bookdown-styled</h1>
+<h1><span class="header-section-number">Chapter 3</span> Documentation - bookdown-styled</h1>
 <p>First, choose <em>New Project</em> and <em>New Directiory</em>.</p>
 <p>Second, choose <em>Book Project using bookdown</em> and pick a name as well as your preferred directory. RStudio will automatically set up the Rproj as well as the folder skeleton.</p>
 <p>Third, tie the existing project with Git through the <code>usethis</code> package. It will re-organise the existing project folder and prepare the Git integration.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>usethis<span class="op">::</span><span class="kw">use_git</span>()</a>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>usethis<span class="op">::</span><span class="kw">use_git</span>()</a>
+<a class="sourceLine" id="cb3-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb3-3" data-line-number="3">✔ Setting active project to <span class="st">&#39;/Users/sushicat/Dropbox/R_Me/R_DE&#39;</span></a>
+<a class="sourceLine" id="cb3-4" data-line-number="4">✔ Initialising Git repo</a>
+<a class="sourceLine" id="cb3-5" data-line-number="5">✔ Adding <span class="st">&#39;.Rhistory&#39;</span>, <span class="st">&#39;.RData&#39;</span>, <span class="st">&#39;.Rproj.user&#39;</span> to <span class="st">&#39;.gitignore&#39;</span></a>
+<a class="sourceLine" id="cb3-6" data-line-number="6">There are <span class="dv">15</span> uncommitted files<span class="op">:</span></a>
+<a class="sourceLine" id="cb3-7" data-line-number="7"><span class="er">*</span><span class="st"> &#39;_bookdown.yml&#39;</span></a>
+<a class="sourceLine" id="cb3-8" data-line-number="8"><span class="op">*</span><span class="st"> &#39;_output.yml&#39;</span></a>
+<a class="sourceLine" id="cb3-9" data-line-number="9"><span class="op">*</span><span class="st"> &#39;.gitignore&#39;</span></a>
+<a class="sourceLine" id="cb3-10" data-line-number="10"><span class="op">*</span><span class="st"> &#39;01-intro.Rmd&#39;</span></a>
+<a class="sourceLine" id="cb3-11" data-line-number="11"><span class="op">*</span><span class="st"> &#39;02-literature.Rmd&#39;</span></a>
+<a class="sourceLine" id="cb3-12" data-line-number="12"><span class="op">*</span><span class="st"> &#39;03-method.Rmd&#39;</span></a>
+<a class="sourceLine" id="cb3-13" data-line-number="13"><span class="op">*</span><span class="st"> &#39;04-application.Rmd&#39;</span></a>
+<a class="sourceLine" id="cb3-14" data-line-number="14"><span class="op">*</span><span class="st"> &#39;05-summary.Rmd&#39;</span></a>
+<a class="sourceLine" id="cb3-15" data-line-number="15"><span class="op">*</span><span class="st"> &#39;06-references.Rmd&#39;</span></a>
+<a class="sourceLine" id="cb3-16" data-line-number="16"><span class="op">*</span><span class="st"> &#39;book.bib&#39;</span></a>
+<a class="sourceLine" id="cb3-17" data-line-number="17"><span class="op">*</span><span class="st"> &#39;index.Rmd&#39;</span></a>
+<a class="sourceLine" id="cb3-18" data-line-number="18"><span class="op">*</span><span class="st"> &#39;preamble.tex&#39;</span></a>
+<a class="sourceLine" id="cb3-19" data-line-number="19"><span class="op">*</span><span class="st"> &#39;R_DE.Rproj&#39;</span></a>
+<a class="sourceLine" id="cb3-20" data-line-number="20"><span class="op">*</span><span class="st"> &#39;README.md&#39;</span></a>
+<a class="sourceLine" id="cb3-21" data-line-number="21"><span class="op">*</span><span class="st"> &#39;style.css&#39;</span></a>
+<a class="sourceLine" id="cb3-22" data-line-number="22">Is it ok to commit them?</a>
+<a class="sourceLine" id="cb3-23" data-line-number="23"></a>
+<a class="sourceLine" id="cb3-24" data-line-number="24"><span class="dv">1</span><span class="op">:</span><span class="st"> </span>Not now</a>
+<a class="sourceLine" id="cb3-25" data-line-number="25"><span class="dv">2</span><span class="op">:</span><span class="st"> </span>For sure</a>
+<a class="sourceLine" id="cb3-26" data-line-number="26"><span class="dv">3</span><span class="op">:</span><span class="st"> </span>No way</a>
+<a class="sourceLine" id="cb3-27" data-line-number="27"></a>
+<a class="sourceLine" id="cb3-28" data-line-number="28">Selection<span class="op">:</span><span class="st"> </span><span class="dv">2</span></a>
+<a class="sourceLine" id="cb3-29" data-line-number="29">✔ Adding files</a>
+<a class="sourceLine" id="cb3-30" data-line-number="30">✔ Commit with message <span class="st">&#39;Initial commit&#39;</span></a>
+<a class="sourceLine" id="cb3-31" data-line-number="31">● A restart of RStudio is required to activate the Git pane</a>
+<a class="sourceLine" id="cb3-32" data-line-number="32">Restart now?</a>
+<a class="sourceLine" id="cb3-33" data-line-number="33"></a>
+<a class="sourceLine" id="cb3-34" data-line-number="34"><span class="dv">1</span><span class="op">:</span><span class="st"> </span>Not now</a>
+<a class="sourceLine" id="cb3-35" data-line-number="35"><span class="dv">2</span><span class="op">:</span><span class="st"> </span>Yup</a>
+<a class="sourceLine" id="cb3-36" data-line-number="36"><span class="dv">3</span><span class="op">:</span><span class="st"> </span>Absolutely not</a>
+<a class="sourceLine" id="cb3-37" data-line-number="37"></a>
+<a class="sourceLine" id="cb3-38" data-line-number="38">Selection<span class="op">:</span><span class="st"> </span><span class="dv">2</span></a></code></pre></div>
+<p>Fourth, create a GitHub repo through the <code>usethis</code> package and if the project name is available on the owner’s repos. When facing git protocol, choose <code>https</code>.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>usethis<span class="op">::</span><span class="kw">use_github</span>()</a>
 <a class="sourceLine" id="cb4-2" data-line-number="2"></a>
 <a class="sourceLine" id="cb4-3" data-line-number="3">✔ Setting active project to <span class="st">&#39;/Users/sushicat/Dropbox/R_Me/R_DE&#39;</span></a>
-<a class="sourceLine" id="cb4-4" data-line-number="4">✔ Initialising Git repo</a>
-<a class="sourceLine" id="cb4-5" data-line-number="5">✔ Adding <span class="st">&#39;.Rhistory&#39;</span>, <span class="st">&#39;.RData&#39;</span>, <span class="st">&#39;.Rproj.user&#39;</span> to <span class="st">&#39;.gitignore&#39;</span></a>
-<a class="sourceLine" id="cb4-6" data-line-number="6">There are <span class="dv">15</span> uncommitted files<span class="op">:</span></a>
-<a class="sourceLine" id="cb4-7" data-line-number="7"><span class="er">*</span><span class="st"> &#39;_bookdown.yml&#39;</span></a>
-<a class="sourceLine" id="cb4-8" data-line-number="8"><span class="op">*</span><span class="st"> &#39;_output.yml&#39;</span></a>
-<a class="sourceLine" id="cb4-9" data-line-number="9"><span class="op">*</span><span class="st"> &#39;.gitignore&#39;</span></a>
-<a class="sourceLine" id="cb4-10" data-line-number="10"><span class="op">*</span><span class="st"> &#39;01-intro.Rmd&#39;</span></a>
-<a class="sourceLine" id="cb4-11" data-line-number="11"><span class="op">*</span><span class="st"> &#39;02-literature.Rmd&#39;</span></a>
-<a class="sourceLine" id="cb4-12" data-line-number="12"><span class="op">*</span><span class="st"> &#39;03-method.Rmd&#39;</span></a>
-<a class="sourceLine" id="cb4-13" data-line-number="13"><span class="op">*</span><span class="st"> &#39;04-application.Rmd&#39;</span></a>
-<a class="sourceLine" id="cb4-14" data-line-number="14"><span class="op">*</span><span class="st"> &#39;05-summary.Rmd&#39;</span></a>
-<a class="sourceLine" id="cb4-15" data-line-number="15"><span class="op">*</span><span class="st"> &#39;06-references.Rmd&#39;</span></a>
-<a class="sourceLine" id="cb4-16" data-line-number="16"><span class="op">*</span><span class="st"> &#39;book.bib&#39;</span></a>
-<a class="sourceLine" id="cb4-17" data-line-number="17"><span class="op">*</span><span class="st"> &#39;index.Rmd&#39;</span></a>
-<a class="sourceLine" id="cb4-18" data-line-number="18"><span class="op">*</span><span class="st"> &#39;preamble.tex&#39;</span></a>
-<a class="sourceLine" id="cb4-19" data-line-number="19"><span class="op">*</span><span class="st"> &#39;R_DE.Rproj&#39;</span></a>
-<a class="sourceLine" id="cb4-20" data-line-number="20"><span class="op">*</span><span class="st"> &#39;README.md&#39;</span></a>
-<a class="sourceLine" id="cb4-21" data-line-number="21"><span class="op">*</span><span class="st"> &#39;style.css&#39;</span></a>
-<a class="sourceLine" id="cb4-22" data-line-number="22">Is it ok to commit them?</a>
+<a class="sourceLine" id="cb4-4" data-line-number="4">✔ Checking that current branch is <span class="st">&#39;master&#39;</span></a>
+<a class="sourceLine" id="cb4-5" data-line-number="5">Which git protocol to use? (enter <span class="dv">0</span> to exit) </a>
+<a class="sourceLine" id="cb4-6" data-line-number="6"></a>
+<a class="sourceLine" id="cb4-7" data-line-number="7"><span class="dv">1</span><span class="op">:</span><span class="st"> </span>ssh   &lt;-<span class="op">-</span><span class="st"> </span>presumes that you have set up ssh keys</a>
+<a class="sourceLine" id="cb4-8" data-line-number="8"><span class="dv">2</span><span class="op">:</span><span class="st"> </span>https &lt;-<span class="op">-</span><span class="st"> </span>choose this <span class="cf">if</span> you don<span class="st">&#39;t have ssh keys (or don&#39;</span>t know <span class="cf">if</span> you do<span class="er">)</span></a>
+<a class="sourceLine" id="cb4-9" data-line-number="9"></a>
+<a class="sourceLine" id="cb4-10" data-line-number="10">Selection<span class="op">:</span><span class="st"> </span><span class="dv">2</span></a>
+<a class="sourceLine" id="cb4-11" data-line-number="11">● Tip<span class="op">:</span><span class="st"> </span>To suppress this menu <span class="cf">in</span> future, put</a>
+<a class="sourceLine" id="cb4-12" data-line-number="12">  <span class="st">`</span><span class="dt">options(usethis.protocol = &quot;https&quot;)</span><span class="st">`</span></a>
+<a class="sourceLine" id="cb4-13" data-line-number="13">  <span class="cf">in</span> your script or <span class="cf">in</span> a user<span class="op">-</span><span class="st"> </span>or project<span class="op">-</span>level startup file, <span class="st">&#39;.Rprofile&#39;</span>.</a>
+<a class="sourceLine" id="cb4-14" data-line-number="14">  Call <span class="st">`</span><span class="dt">usethis::edit_r_profile()</span><span class="st">`</span> to open it <span class="cf">for</span> editing.</a>
+<a class="sourceLine" id="cb4-15" data-line-number="15">● Check title and description</a>
+<a class="sourceLine" id="cb4-16" data-line-number="16">  Name<span class="op">:</span><span class="st">        </span>Bradford</a>
+<a class="sourceLine" id="cb4-17" data-line-number="17">  Description<span class="op">:</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb4-18" data-line-number="18">Are title and description ok?</a>
+<a class="sourceLine" id="cb4-19" data-line-number="19"></a>
+<a class="sourceLine" id="cb4-20" data-line-number="20"><span class="dv">1</span><span class="op">:</span><span class="st"> </span>Yeah</a>
+<a class="sourceLine" id="cb4-21" data-line-number="21"><span class="dv">2</span><span class="op">:</span><span class="st"> </span>Not now</a>
+<a class="sourceLine" id="cb4-22" data-line-number="22"><span class="dv">3</span><span class="op">:</span><span class="st"> </span>Absolutely not</a>
 <a class="sourceLine" id="cb4-23" data-line-number="23"></a>
-<a class="sourceLine" id="cb4-24" data-line-number="24"><span class="dv">1</span><span class="op">:</span><span class="st"> </span>Not now</a>
-<a class="sourceLine" id="cb4-25" data-line-number="25"><span class="dv">2</span><span class="op">:</span><span class="st"> </span>For sure</a>
-<a class="sourceLine" id="cb4-26" data-line-number="26"><span class="dv">3</span><span class="op">:</span><span class="st"> </span>No way</a>
-<a class="sourceLine" id="cb4-27" data-line-number="27"></a>
-<a class="sourceLine" id="cb4-28" data-line-number="28">Selection<span class="op">:</span><span class="st"> </span><span class="dv">2</span></a>
-<a class="sourceLine" id="cb4-29" data-line-number="29">✔ Adding files</a>
-<a class="sourceLine" id="cb4-30" data-line-number="30">✔ Commit with message <span class="st">&#39;Initial commit&#39;</span></a>
-<a class="sourceLine" id="cb4-31" data-line-number="31">● A restart of RStudio is required to activate the Git pane</a>
-<a class="sourceLine" id="cb4-32" data-line-number="32">Restart now?</a>
-<a class="sourceLine" id="cb4-33" data-line-number="33"></a>
-<a class="sourceLine" id="cb4-34" data-line-number="34"><span class="dv">1</span><span class="op">:</span><span class="st"> </span>Not now</a>
-<a class="sourceLine" id="cb4-35" data-line-number="35"><span class="dv">2</span><span class="op">:</span><span class="st"> </span>Yup</a>
-<a class="sourceLine" id="cb4-36" data-line-number="36"><span class="dv">3</span><span class="op">:</span><span class="st"> </span>Absolutely not</a>
-<a class="sourceLine" id="cb4-37" data-line-number="37"></a>
-<a class="sourceLine" id="cb4-38" data-line-number="38">Selection<span class="op">:</span><span class="st"> </span><span class="dv">2</span></a></code></pre></div>
-<p>Fourth, create a GitHub repo through the <code>usethis</code> package and if the project name is available on the owner’s repos. When facing git protocol, choose <code>https</code>.</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>usethis<span class="op">::</span><span class="kw">use_github</span>()</a>
-<a class="sourceLine" id="cb5-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb5-3" data-line-number="3">✔ Setting active project to <span class="st">&#39;/Users/sushicat/Dropbox/R_Me/R_DE&#39;</span></a>
-<a class="sourceLine" id="cb5-4" data-line-number="4">✔ Checking that current branch is <span class="st">&#39;master&#39;</span></a>
-<a class="sourceLine" id="cb5-5" data-line-number="5">Which git protocol to use? (enter <span class="dv">0</span> to exit) </a>
-<a class="sourceLine" id="cb5-6" data-line-number="6"></a>
-<a class="sourceLine" id="cb5-7" data-line-number="7"><span class="dv">1</span><span class="op">:</span><span class="st"> </span>ssh   &lt;-<span class="op">-</span><span class="st"> </span>presumes that you have set up ssh keys</a>
-<a class="sourceLine" id="cb5-8" data-line-number="8"><span class="dv">2</span><span class="op">:</span><span class="st"> </span>https &lt;-<span class="op">-</span><span class="st"> </span>choose this <span class="cf">if</span> you don<span class="st">&#39;t have ssh keys (or don&#39;</span>t know <span class="cf">if</span> you do<span class="er">)</span></a>
-<a class="sourceLine" id="cb5-9" data-line-number="9"></a>
-<a class="sourceLine" id="cb5-10" data-line-number="10">Selection<span class="op">:</span><span class="st"> </span><span class="dv">2</span></a>
-<a class="sourceLine" id="cb5-11" data-line-number="11">● Tip<span class="op">:</span><span class="st"> </span>To suppress this menu <span class="cf">in</span> future, put</a>
-<a class="sourceLine" id="cb5-12" data-line-number="12">  <span class="st">`</span><span class="dt">options(usethis.protocol = &quot;https&quot;)</span><span class="st">`</span></a>
-<a class="sourceLine" id="cb5-13" data-line-number="13">  <span class="cf">in</span> your script or <span class="cf">in</span> a user<span class="op">-</span><span class="st"> </span>or project<span class="op">-</span>level startup file, <span class="st">&#39;.Rprofile&#39;</span>.</a>
-<a class="sourceLine" id="cb5-14" data-line-number="14">  Call <span class="st">`</span><span class="dt">usethis::edit_r_profile()</span><span class="st">`</span> to open it <span class="cf">for</span> editing.</a>
-<a class="sourceLine" id="cb5-15" data-line-number="15">● Check title and description</a>
-<a class="sourceLine" id="cb5-16" data-line-number="16">  Name<span class="op">:</span><span class="st">        </span>Bradford</a>
-<a class="sourceLine" id="cb5-17" data-line-number="17">  Description<span class="op">:</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb5-18" data-line-number="18">Are title and description ok?</a>
-<a class="sourceLine" id="cb5-19" data-line-number="19"></a>
-<a class="sourceLine" id="cb5-20" data-line-number="20"><span class="dv">1</span><span class="op">:</span><span class="st"> </span>Yeah</a>
-<a class="sourceLine" id="cb5-21" data-line-number="21"><span class="dv">2</span><span class="op">:</span><span class="st"> </span>Not now</a>
-<a class="sourceLine" id="cb5-22" data-line-number="22"><span class="dv">3</span><span class="op">:</span><span class="st"> </span>Absolutely not</a>
-<a class="sourceLine" id="cb5-23" data-line-number="23"></a>
-<a class="sourceLine" id="cb5-24" data-line-number="24">Selection<span class="op">:</span><span class="st"> </span><span class="dv">1</span></a>
-<a class="sourceLine" id="cb5-25" data-line-number="25">✔ Creating GitHub repository</a>
-<a class="sourceLine" id="cb5-26" data-line-number="26">✔ Setting remote <span class="st">&#39;origin&#39;</span> to <span class="st">&#39;https://github.com/dataning/R_DE.git&#39;</span></a>
-<a class="sourceLine" id="cb5-27" data-line-number="27">✔ Pushing <span class="st">&#39;master&#39;</span> branch to GitHub and setting remote tracking branch</a>
-<a class="sourceLine" id="cb5-28" data-line-number="28">✔ Opening URL <span class="st">&#39;https://github.com/dataning/R_DE&#39;</span></a></code></pre></div>
+<a class="sourceLine" id="cb4-24" data-line-number="24">Selection<span class="op">:</span><span class="st"> </span><span class="dv">1</span></a>
+<a class="sourceLine" id="cb4-25" data-line-number="25">✔ Creating GitHub repository</a>
+<a class="sourceLine" id="cb4-26" data-line-number="26">✔ Setting remote <span class="st">&#39;origin&#39;</span> to <span class="st">&#39;https://github.com/dataning/R_DE.git&#39;</span></a>
+<a class="sourceLine" id="cb4-27" data-line-number="27">✔ Pushing <span class="st">&#39;master&#39;</span> branch to GitHub and setting remote tracking branch</a>
+<a class="sourceLine" id="cb4-28" data-line-number="28">✔ Opening URL <span class="st">&#39;https://github.com/dataning/R_DE&#39;</span></a></code></pre></div>
 <p>Fifth, create and save a random R.script in the current project. The commit and push the change of the project to your GitHub repo. You can go to your GitHub repo and check if the R script has been added. This should tell you whether your Rproj and GitHub Repo are fully synced/integrated.</p>
 <p>Sixth, go to Netlify and deploy your GitHub repo on Netlify. This will give you the ability to perform continuous deployment as well as deployment to custom domain.</p>
 <p>Type in your Rpoj’s GitHub repo name.</p>
 <div>
 <center>
-<img src="https://www.dropbox.com/s/utlllr7julm7w74/Screenshot%202019-11-27%2013.00.55.png" alt="">
+<img src="https://www.dropbox.com/s/utlllr7julm7w74/Screenshot%202019-11-27%2013.00.55.png?raw=1" alt="">
 </center>
 </div>
 <p>You need to put down <code>_book</code> in <em>Publish directory</em>.</p>
 <div>
 <center>
-<img src="https://www.dropbox.com/s/y7cmgjintbbqiao/Screenshot%202019-11-27%2013.08.36.png" alt="">
+<img src="https://www.dropbox.com/s/y7cmgjintbbqiao/Screenshot%202019-11-27%2013.08.36.png?raw=1" alt="">
 </center>
 </div>
 
@@ -307,7 +307,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["R_DE.pdf", "R_DE.epub"],
+"download": {},
 "toc": {
 "collapse": "subsection"
 }
@@ -315,20 +315,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>
