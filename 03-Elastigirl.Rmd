@@ -1,0 +1,96 @@
+# Elastigirl is Here
+
+> When designing the Incredible family, Brad Bird wanted each of their superpowers to be related to their personality. He felt that as a mother, Helen was required by society to be pulled in many different directions, which led to her being given an elastic ability.
+
+<div><center>
+<img src="https://media.giphy.com/media/mO0yPY3SZ4s3C/giphy.gif" alt="">
+</center></div>  
+
+The same we can say to all sort of data science projects. We are always required by different stakeholders to be pull in many different directions. For us, we have to nail down where we are and how to initiate a new project first. 
+
+
+First of all, we find where we stand. 
+```{r eval=FALSE}
+> here::here()
+
+[1] "/Users/sushicat/Dropbox/R_Me/Hero_book"
+```
+
+Second, we find out what we are being surrounded. 
+```{r eval=FALSE}
+> fs::dir_ls()
+
+01-think.Rmd           02-pm.Rmd              03-load-data.Rmd       04-tidy-data.Rmd       
+05-bayesian.Rmd        06-Elastigirl_1.Rmd 06_Elastigirl_1.R   20-references.Rmd      
+CreditCard             Creditcard_hack.R      Data                   Hero_book.Rproj        
+Hero_book.log          README.md              _book                  _bookdown.yml          
+_bookdown_files        _output.yml            book.bib               index.Rmd              
+packages.bib           preamble.tex           style.css 
+```
+
+Third, we pick somewhere (in this case - the data folder) to explore further. 
+```{r eval=FALSE}
+> fs::dir_ls("Data")
+> fs::dir_ls("Data/Subway_delays")
+
+Data/Subway_delays/Subway&SRT_Logs_April_2018.xlsx
+Data/Subway_delays/Subway&SRT_Logs_February_2018.xlsx
+Data/Subway_delays/Subway&SRT_Logs_March_2018.xlsx
+Data/Subway_delays/Subway&SRT_Logs_May_2018.xlsx
+Data/Subway_delays/Subway_&_SRT_Logs_(August_2018).xlsx
+Data/Subway_delays/Subway_&_SRT_Logs_(September_2018).xlsx
+Data/Subway_delays/Subway_&_SRT_Logs_December_2018.xlsx
+Data/Subway_delays/Subway_&_SRT_Logs_November_2018.xlsx
+Data/Subway_delays/Subway_SRT_Logs(January 2018).xlsx
+Data/Subway_delays/Subway_SRT_Logs(July_2018).xlsx
+Data/Subway_delays/Subway_SRT_Logs(June2018).xlsx
+Data/Subway_delays/Subway_SRT_Logs(October 2018).xlsx
+```
+
+Alternatively, we can use the tree strcuture to show the folder. 
+```{r eval=FALSE}
+> fs::dir_tree("Data/Subway_delays")
+
+Data/Subway_delays
+├── Subway&SRT_Logs_April_2018.xlsx
+├── Subway&SRT_Logs_February_2018.xlsx
+├── Subway&SRT_Logs_March_2018.xlsx
+├── Subway&SRT_Logs_May_2018.xlsx
+├── Subway_&_SRT_Logs_(August_2018).xlsx
+├── Subway_&_SRT_Logs_(September_2018).xlsx
+├── Subway_&_SRT_Logs_December_2018.xlsx
+├── Subway_&_SRT_Logs_November_2018.xlsx
+├── Subway_SRT_Logs(January 2018).xlsx
+├── Subway_SRT_Logs(July_2018).xlsx
+├── Subway_SRT_Logs(June2018).xlsx
+└── Subway_SRT_Logs(October 2018).xlsx
+```
+
+Fourth, we make a shortcut if this is where we'd like to use or come back later. 
+```{r eval=FALSE}
+> fs::dir_tree(here::here("Data", "Subway_delays"))
+
+/Users/goal/Dropbox/R_Me/Hero_book/Data/Subway_delays
+├── Subway&SRT_Logs_April_2018.xlsx
+├── Subway&SRT_Logs_February_2018.xlsx
+├── Subway&SRT_Logs_March_2018.xlsx
+├── Subway&SRT_Logs_May_2018.xlsx
+├── Subway_&_SRT_Logs_(August_2018).xlsx
+├── Subway_&_SRT_Logs_(September_2018).xlsx
+├── Subway_&_SRT_Logs_December_2018.xlsx
+├── Subway_&_SRT_Logs_November_2018.xlsx
+├── Subway_SRT_Logs(January 2018).xlsx
+├── Subway_SRT_Logs(July_2018).xlsx
+├── Subway_SRT_Logs(June2018).xlsx
+└── Subway_SRT_Logs(October 2018).xlsx
+```
+
+Let's chain everything together. We present the folder with the dataset - it's like placing the meat and veggie into an oven tray. We then put the tray to an oven called `purrr` and it would import all the spreadsheet files in this particular folder - it's like an oven. Finally, we use the cleaning wipe from `janitor` and clean up the the column names - the ambiguity bit. 
+
+```{r eval=FALSE}
+delays_clean <- fs::dir_ls(here::here("Data", "Subway_delays")) %>% 
+  purrr::map_dfr(readxl::read_excel) %>%
+  janitor::clean_names()
+```
+
+https://sharlagelfand.netlify.com/posts/usethis-for-reporting/
