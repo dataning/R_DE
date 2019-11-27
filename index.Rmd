@@ -1,13 +1,18 @@
 --- 
-title: "Introduction to Data Science with R"
-author: "Ning Lu"
+title: Introduction to Data Science with R
+author:
+  - name: Ning Lu
+    affiliation: Bradford Institute of Health Research (BIHR)
+  - name: Bradford Teaching Hospitals NHS Foundation Trust (BTHNFT)
+    affiliation: Centre for Applied Education Research (CAER)
+  - name: Leeds Institute for Data Analytics, University of Leeds (LIDA)
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "This is a minimal example of training people to start doing data analytics in R."
+description: "This is a minimal example of training people to start doing data analytic in R."
 ---
 
 # Knowledge is sharing. 
