@@ -82,6 +82,15 @@ Fifth, create and save a random R.script in the current project. The commit and 
 
 Sixth, go to Netlify and deploy your GitHub repo on Netlify. This will give you the ability to perform continuous deployment as well as deployment to custom domain.  
 
-There's a number of information you need to select or put down in Netlify.
-- Your Rpoj's GitHub repo name
-- `_book`
+Type in your Rpoj's GitHub repo name.
+
+<div><center>
+<img src="https://www.dropbox.com/s/utlllr7julm7w74/Screenshot%202019-11-27%2013.00.55.png" alt="">
+</center></div>  
+
+You need to put down `_book` in _Publish directory_.
+
+<div><center>
+<img src="https://www.dropbox.com/s/y7cmgjintbbqiao/Screenshot%202019-11-27%2013.08.36.png" alt="">
+</center></div> 
+
