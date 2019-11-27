@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 5 Applications | Introduction to Data Science with R</title>
+  <title>Chapter 9 Introduction to Machine Learning | Introduction to Data Science with R</title>
   <meta name="description" content="This is a minimal example of training people to start doing data analytics in R." />
   <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 5 Applications | Introduction to Data Science with R" />
+  <meta property="og:title" content="Chapter 9 Introduction to Machine Learning | Introduction to Data Science with R" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 5 Applications | Introduction to Data Science with R" />
+  <meta name="twitter:title" content="Chapter 9 Introduction to Machine Learning | Introduction to Data Science with R" />
   
   <meta name="twitter:description" content="This is a minimal example of training people to start doing data analytics in R." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="elastigirl-is-here.html"/>
-<link rel="next" href="data-cleaning.html"/>
+<link rel="prev" href="shortcuts.html"/>
+<link rel="next" href="rmarkdown-with-sublime.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -176,14 +176,35 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="applications" class="section level1">
-<h1><span class="header-section-number">Chapter 5</span> Applications</h1>
-<p>Some <em>significant</em> applications are demonstrated in this chapter.</p>
-<div id="example-one" class="section level2">
-<h2><span class="header-section-number">5.1</span> Example one</h2>
+<div id="introduction-to-machine-learning" class="section level1">
+<h1><span class="header-section-number">Chapter 9</span> Introduction to Machine Learning</h1>
+<p>There’re two main tribes of machine learning. One tribe is called <em>supervised learning</em> and it’s focused on problems with predictive nature. The other one is called <em>unsupervised learning</em> and it’s focused on problems with descriptive nature.</p>
+<div id="supervised-learning" class="section level2">
+<h2><span class="header-section-number">9.1</span> Supervised learning</h2>
+<p>The idea of supervised learning is that given a set of attributes or features of the objects or targets, the model is then trained to generate accurate prediction on the objects or targets. The idea of supervision refers to the fact that the target values provide a supervisory role, which means that the learning algorithm is expected to go through a set of cases where the target an its features are both presented. The learning algorithm (such as tree algorithm, neural networks) will then determine the right combination or optimisation among the features (such as feature engineering) to predict the targets.</p>
+<p>Some of the common challenges involved with supervised learning are including,
+- To predict the likelihood of customer churning over a certain period of time through a set of customer attributes;
+- To predict the likelihood of employee retention of using a range of employee and workplace attributes;
+- To predict the transaction price of real estates through a range of home attributes;
+- To predict the re-admission of the patients through a set of patient attributes and symptoms.</p>
+<p>Some of the family members are expected to exist in machine learning
+- Y: Outcome measure (or response, target, dependent variable)</p>
+<pre><code>- Y is numeric. When the outcome measure is numeric / continuous outcome, this is regarded as regression challenge. For example, Average home sales price as a function of year built and total square footage. 
+
+- Y is categorical. When the outcome measure is categorical outcome, this is regarded as classification challenge. For example, Did a customer redeem a coupon . </code></pre>
+<ul>
+<li>X: Feature measure (or predictor, attribute, independent variable)</li>
+<li>training data</li>
+<li>testing data</li>
+</ul>
 </div>
-<div id="example-two" class="section level2">
-<h2><span class="header-section-number">5.2</span> Example two</h2>
+<div id="unsupervised-learning" class="section level2">
+<h2><span class="header-section-number">9.2</span> Unsupervised learning</h2>
+<p>In essence, unsupervised learning is concerned with identifying groups in a data set. The groups may be defined by the rows (i.e., clustering) or the columns (i.e., dimension reduction). The goal of clustering is to segment observations into similar groups based on the observed variables; for example, to divide consumers into different homogeneous groups, a process known as market segmentation. In dimension reduction, we are often concerned with reducing the number of variables in a data set.</p>
+<p>Unsupervised learning is often performed as part of an exploratory data analysis (EDA). However, the exercise tends to be more subjective, and there is no simple goal for the analysis, such as prediction of a response.
+- Divide consumers into different homogeneous groups so that tailored marketing strategies can be developed and deployed for each segment.
+- Identify groups of online shoppers with similar browsing and purchase histories, as well as items that are of particular interest to the shoppers within each group. Then an individual shopper can be preferentially shown the items in which he or she is particularly likely to be interested, based on the purchase histories of similar shoppers.
+- Identify products that have similar purchasing behavior so that managers can manage them as product groups.</p>
 
 </div>
 </div>
@@ -192,8 +213,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="elastigirl-is-here.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="data-cleaning.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="shortcuts.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="rmarkdown-with-sublime.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
