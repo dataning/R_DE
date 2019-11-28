@@ -4,26 +4,26 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>7 Q in Bond movie | Introduction to Data Science with R</title>
-  <meta name="description" content="This is a minimal example of training people to start doing data analytic in R." />
+  <title>7 Q in Bond movie | Introduction to Data Science with R 🙀</title>
+  <meta name="description" content="This is a minimal example of training people to start doing data manipulation and management in R." />
   <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="7 Q in Bond movie | Introduction to Data Science with R" />
+  <meta property="og:title" content="7 Q in Bond movie | Introduction to Data Science with R 🙀" />
   <meta property="og:type" content="book" />
   
   
-  <meta property="og:description" content="This is a minimal example of training people to start doing data analytic in R." />
+  <meta property="og:description" content="This is a minimal example of training people to start doing data manipulation and management in R." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="7 Q in Bond movie | Introduction to Data Science with R" />
+  <meta name="twitter:title" content="7 Q in Bond movie | Introduction to Data Science with R 🙀" />
   
-  <meta name="twitter:description" content="This is a minimal example of training people to start doing data analytic in R." />
+  <meta name="twitter:description" content="This is a minimal example of training people to start doing data manipulation and management in R." />
   
 
 
 
-<meta name="date" content="2019-11-27" />
+<meta name="date" content="2019-11-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -130,8 +130,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="./">To become a hero in R</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> How R you?</a></li>
-<li class="chapter" data-level="2" data-path="think-about-your-end-before-your-start.html"><a href="think-about-your-end-before-your-start.html"><i class="fa fa-check"></i><b>2</b> Think about your end before your start</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Heroes Are Made</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#goal"><i class="fa fa-check"></i><b>1.1</b> Goal</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="the-end-defines-the-means-and-the-start.html"><a href="the-end-defines-the-means-and-the-start.html"><i class="fa fa-check"></i><b>2</b> The End Defines The Means and The Start</a></li>
 <li class="chapter" data-level="3" data-path="documentation-bookdown-styled.html"><a href="documentation-bookdown-styled.html"><i class="fa fa-check"></i><b>3</b> Documentation - bookdown-styled</a></li>
 <li class="chapter" data-level="4" data-path="elastigirl-is-here.html"><a href="elastigirl-is-here.html"><i class="fa fa-check"></i><b>4</b> Elastigirl is Here</a></li>
 <li class="chapter" data-level="5" data-path="shortcuts-double-tap.html"><a href="shortcuts-double-tap.html"><i class="fa fa-check"></i><b>5</b> Shortcuts - Double tap</a><ul>
@@ -163,7 +165,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to Data Science with R</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to Data Science with R 🙀</a>
           </h1>
         </div>
 
@@ -178,41 +180,41 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </blockquote>
 <p>There’re a number of ways to set up Rproject and GitHub. Here we list two main approaches here.</p>
 <p>The first way is the <strong>pull</strong> way where we get both Rproject and git integrated from outside - GitHub. You use the <code>github</code> function from <code>usethis</code> package and put down (“OWNER/REPO_NAME”) and opt for https when you get asked on git protocol.</p>
-<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb15-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>usethis<span class="op">::</span><span class="kw">create_from_github</span>(<span class="st">&quot;dataning/learn_usethis&quot;</span>)</a>
-<a class="sourceLine" id="cb15-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb15-3" data-line-number="3">Which git protocol to use? (enter <span class="dv">0</span> to exit) </a>
-<a class="sourceLine" id="cb15-4" data-line-number="4"></a>
-<a class="sourceLine" id="cb15-5" data-line-number="5"><span class="dv">1</span><span class="op">:</span><span class="st"> </span>ssh   &lt;-<span class="op">-</span><span class="st"> </span>presumes that you have set up ssh keys</a>
-<a class="sourceLine" id="cb15-6" data-line-number="6"><span class="dv">2</span><span class="op">:</span><span class="st"> </span>https &lt;-<span class="op">-</span><span class="st"> </span>choose this <span class="cf">if</span> you don<span class="st">&#39;t have ssh keys (or don&#39;</span>t know <span class="cf">if</span> you do<span class="er">)</span></a>
-<a class="sourceLine" id="cb15-7" data-line-number="7"></a>
-<a class="sourceLine" id="cb15-8" data-line-number="8">Selection<span class="op">:</span><span class="st"> </span><span class="dv">2</span></a>
-<a class="sourceLine" id="cb15-9" data-line-number="9">● Tip<span class="op">:</span><span class="st"> </span>To suppress this menu <span class="cf">in</span> future, put</a>
-<a class="sourceLine" id="cb15-10" data-line-number="10">  <span class="st">`</span><span class="dt">options(usethis.protocol = &quot;https&quot;)</span><span class="st">`</span></a>
-<a class="sourceLine" id="cb15-11" data-line-number="11">  <span class="cf">in</span> your script or <span class="cf">in</span> a user<span class="op">-</span><span class="st"> </span>or project<span class="op">-</span>level startup file, <span class="st">&#39;.Rprofile&#39;</span>.</a>
-<a class="sourceLine" id="cb15-12" data-line-number="12">  Call <span class="st">`</span><span class="dt">usethis::edit_r_profile()</span><span class="st">`</span> to open it <span class="cf">for</span> editing.</a>
-<a class="sourceLine" id="cb15-13" data-line-number="13">✔ Cloning repo from <span class="st">&#39;https://github.com/dataning/learn_usethis.git&#39;</span> into <span class="st">&#39;/Users/sushicat/Desktop/learn_usethis&#39;</span></a>
-<a class="sourceLine" id="cb15-14" data-line-number="14">✔ Setting active project to <span class="st">&#39;/Users/sushicat/Desktop/learn_usethis&#39;</span></a>
-<a class="sourceLine" id="cb15-15" data-line-number="15">✔ Writing <span class="st">&#39;learn_usethis.Rproj&#39;</span></a>
-<a class="sourceLine" id="cb15-16" data-line-number="16">✔ Adding <span class="st">&#39;.Rproj.user&#39;</span> to <span class="st">&#39;.gitignore&#39;</span></a>
-<a class="sourceLine" id="cb15-17" data-line-number="17">✔ Opening <span class="st">&#39;/Users/sushicat/Desktop/learn_usethis/&#39;</span> <span class="cf">in</span> new RStudio session</a>
-<a class="sourceLine" id="cb15-18" data-line-number="18">✔ Setting active project to <span class="st">&#39;&lt;no active project&gt;&#39;</span></a></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb13-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>usethis<span class="op">::</span><span class="kw">create_from_github</span>(<span class="st">&quot;dataning/learn_usethis&quot;</span>)</a>
+<a class="sourceLine" id="cb13-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb13-3" data-line-number="3">Which git protocol to use? (enter <span class="dv">0</span> to exit) </a>
+<a class="sourceLine" id="cb13-4" data-line-number="4"></a>
+<a class="sourceLine" id="cb13-5" data-line-number="5"><span class="dv">1</span><span class="op">:</span><span class="st"> </span>ssh   &lt;-<span class="op">-</span><span class="st"> </span>presumes that you have set up ssh keys</a>
+<a class="sourceLine" id="cb13-6" data-line-number="6"><span class="dv">2</span><span class="op">:</span><span class="st"> </span>https &lt;-<span class="op">-</span><span class="st"> </span>choose this <span class="cf">if</span> you don<span class="st">&#39;t have ssh keys (or don&#39;</span>t know <span class="cf">if</span> you do<span class="er">)</span></a>
+<a class="sourceLine" id="cb13-7" data-line-number="7"></a>
+<a class="sourceLine" id="cb13-8" data-line-number="8">Selection<span class="op">:</span><span class="st"> </span><span class="dv">2</span></a>
+<a class="sourceLine" id="cb13-9" data-line-number="9">● Tip<span class="op">:</span><span class="st"> </span>To suppress this menu <span class="cf">in</span> future, put</a>
+<a class="sourceLine" id="cb13-10" data-line-number="10">  <span class="st">`</span><span class="dt">options(usethis.protocol = &quot;https&quot;)</span><span class="st">`</span></a>
+<a class="sourceLine" id="cb13-11" data-line-number="11">  <span class="cf">in</span> your script or <span class="cf">in</span> a user<span class="op">-</span><span class="st"> </span>or project<span class="op">-</span>level startup file, <span class="st">&#39;.Rprofile&#39;</span>.</a>
+<a class="sourceLine" id="cb13-12" data-line-number="12">  Call <span class="st">`</span><span class="dt">usethis::edit_r_profile()</span><span class="st">`</span> to open it <span class="cf">for</span> editing.</a>
+<a class="sourceLine" id="cb13-13" data-line-number="13">✔ Cloning repo from <span class="st">&#39;https://github.com/dataning/learn_usethis.git&#39;</span> into <span class="st">&#39;/Users/sushicat/Desktop/learn_usethis&#39;</span></a>
+<a class="sourceLine" id="cb13-14" data-line-number="14">✔ Setting active project to <span class="st">&#39;/Users/sushicat/Desktop/learn_usethis&#39;</span></a>
+<a class="sourceLine" id="cb13-15" data-line-number="15">✔ Writing <span class="st">&#39;learn_usethis.Rproj&#39;</span></a>
+<a class="sourceLine" id="cb13-16" data-line-number="16">✔ Adding <span class="st">&#39;.Rproj.user&#39;</span> to <span class="st">&#39;.gitignore&#39;</span></a>
+<a class="sourceLine" id="cb13-17" data-line-number="17">✔ Opening <span class="st">&#39;/Users/sushicat/Desktop/learn_usethis/&#39;</span> <span class="cf">in</span> new RStudio session</a>
+<a class="sourceLine" id="cb13-18" data-line-number="18">✔ Setting active project to <span class="st">&#39;&lt;no active project&gt;&#39;</span></a></code></pre></div>
 <p>The second way is to imagine you’re working in a random folder and you wish to set up the Rproject</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb16-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span><span class="kw">library</span>(usethis)</a>
-<a class="sourceLine" id="cb16-2" data-line-number="2"><span class="op">&gt;</span><span class="st"> </span><span class="kw">library</span>(here)</a>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb14-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span><span class="kw">library</span>(usethis)</a>
+<a class="sourceLine" id="cb14-2" data-line-number="2"><span class="op">&gt;</span><span class="st"> </span><span class="kw">library</span>(here)</a>
+<a class="sourceLine" id="cb14-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb14-4" data-line-number="4"><span class="kw">here</span>() starts at <span class="op">/</span>Users<span class="op">/</span>sushicat<span class="op">/</span>Dropbox<span class="op">/</span>R_Me</a></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb15-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>here<span class="op">::</span><span class="kw">here</span>()</a>
+<a class="sourceLine" id="cb15-2" data-line-number="2">[<span class="dv">1</span>] <span class="st">&quot;/Users/sushicat/Dropbox/R_Me&quot;</span></a></code></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb16-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>path &lt;-<span class="st"> </span><span class="kw">file.path</span>(<span class="kw">here</span>(), <span class="st">&quot;learn_usethis&quot;</span>)</a>
+<a class="sourceLine" id="cb16-2" data-line-number="2"><span class="kw">create_project</span>(path)</a>
 <a class="sourceLine" id="cb16-3" data-line-number="3"></a>
-<a class="sourceLine" id="cb16-4" data-line-number="4"><span class="kw">here</span>() starts at <span class="op">/</span>Users<span class="op">/</span>sushicat<span class="op">/</span>Dropbox<span class="op">/</span>R_Me</a></code></pre></div>
-<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb17-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>here<span class="op">::</span><span class="kw">here</span>()</a>
-<a class="sourceLine" id="cb17-2" data-line-number="2">[<span class="dv">1</span>] <span class="st">&quot;/Users/sushicat/Dropbox/R_Me&quot;</span></a></code></pre></div>
-<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb18-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>path &lt;-<span class="st"> </span><span class="kw">file.path</span>(<span class="kw">here</span>(), <span class="st">&quot;learn_usethis&quot;</span>)</a>
-<a class="sourceLine" id="cb18-2" data-line-number="2"><span class="kw">create_project</span>(path)</a>
-<a class="sourceLine" id="cb18-3" data-line-number="3"></a>
-<a class="sourceLine" id="cb18-4" data-line-number="4">✔ Creating <span class="st">&#39;/Users/sushicat/Dropbox/R_Me/learn_usethis/&#39;</span></a>
-<a class="sourceLine" id="cb18-5" data-line-number="5">✔ Setting active project to <span class="st">&#39;/Users/sushicat/Dropbox/R_Me/learn_usethis&#39;</span></a>
-<a class="sourceLine" id="cb18-6" data-line-number="6">✔ Creating <span class="st">&#39;R/&#39;</span></a>
-<a class="sourceLine" id="cb18-7" data-line-number="7">✔ Writing <span class="st">&#39;learn_usethis.Rproj&#39;</span></a>
-<a class="sourceLine" id="cb18-8" data-line-number="8">✔ Adding <span class="st">&#39;.Rproj.user&#39;</span> to <span class="st">&#39;.gitignore&#39;</span></a>
-<a class="sourceLine" id="cb18-9" data-line-number="9">✔ Opening <span class="st">&#39;/Users/sushicat/Dropbox/R_Me/learn_usethis/&#39;</span> <span class="cf">in</span> new RStudio session</a>
-<a class="sourceLine" id="cb18-10" data-line-number="10">✔ Setting active project to <span class="st">&#39;&lt;no active project&gt;&#39;</span></a></code></pre></div>
+<a class="sourceLine" id="cb16-4" data-line-number="4">✔ Creating <span class="st">&#39;/Users/sushicat/Dropbox/R_Me/learn_usethis/&#39;</span></a>
+<a class="sourceLine" id="cb16-5" data-line-number="5">✔ Setting active project to <span class="st">&#39;/Users/sushicat/Dropbox/R_Me/learn_usethis&#39;</span></a>
+<a class="sourceLine" id="cb16-6" data-line-number="6">✔ Creating <span class="st">&#39;R/&#39;</span></a>
+<a class="sourceLine" id="cb16-7" data-line-number="7">✔ Writing <span class="st">&#39;learn_usethis.Rproj&#39;</span></a>
+<a class="sourceLine" id="cb16-8" data-line-number="8">✔ Adding <span class="st">&#39;.Rproj.user&#39;</span> to <span class="st">&#39;.gitignore&#39;</span></a>
+<a class="sourceLine" id="cb16-9" data-line-number="9">✔ Opening <span class="st">&#39;/Users/sushicat/Dropbox/R_Me/learn_usethis/&#39;</span> <span class="cf">in</span> new RStudio session</a>
+<a class="sourceLine" id="cb16-10" data-line-number="10">✔ Setting active project to <span class="st">&#39;&lt;no active project&gt;&#39;</span></a></code></pre></div>
 
 </div>
             </section>
@@ -271,20 +273,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>

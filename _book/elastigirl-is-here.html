@@ -4,26 +4,26 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>4 Elastigirl is Here | Introduction to Data Science with R</title>
-  <meta name="description" content="This is a minimal example of training people to start doing data analytic in R." />
+  <title>4 Elastigirl is Here | Introduction to Data Science with R 🙀</title>
+  <meta name="description" content="This is a minimal example of training people to start doing data manipulation and management in R." />
   <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="4 Elastigirl is Here | Introduction to Data Science with R" />
+  <meta property="og:title" content="4 Elastigirl is Here | Introduction to Data Science with R 🙀" />
   <meta property="og:type" content="book" />
   
   
-  <meta property="og:description" content="This is a minimal example of training people to start doing data analytic in R." />
+  <meta property="og:description" content="This is a minimal example of training people to start doing data manipulation and management in R." />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="4 Elastigirl is Here | Introduction to Data Science with R" />
+  <meta name="twitter:title" content="4 Elastigirl is Here | Introduction to Data Science with R 🙀" />
   
-  <meta name="twitter:description" content="This is a minimal example of training people to start doing data analytic in R." />
+  <meta name="twitter:description" content="This is a minimal example of training people to start doing data manipulation and management in R." />
   
 
 
 
-<meta name="date" content="2019-11-27" />
+<meta name="date" content="2019-11-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -130,8 +130,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="./">To become a hero in R</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> How R you?</a></li>
-<li class="chapter" data-level="2" data-path="think-about-your-end-before-your-start.html"><a href="think-about-your-end-before-your-start.html"><i class="fa fa-check"></i><b>2</b> Think about your end before your start</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Heroes Are Made</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#goal"><i class="fa fa-check"></i><b>1.1</b> Goal</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="the-end-defines-the-means-and-the-start.html"><a href="the-end-defines-the-means-and-the-start.html"><i class="fa fa-check"></i><b>2</b> The End Defines The Means and The Start</a></li>
 <li class="chapter" data-level="3" data-path="documentation-bookdown-styled.html"><a href="documentation-bookdown-styled.html"><i class="fa fa-check"></i><b>3</b> Documentation - bookdown-styled</a></li>
 <li class="chapter" data-level="4" data-path="elastigirl-is-here.html"><a href="elastigirl-is-here.html"><i class="fa fa-check"></i><b>4</b> Elastigirl is Here</a></li>
 <li class="chapter" data-level="5" data-path="shortcuts-double-tap.html"><a href="shortcuts-double-tap.html"><i class="fa fa-check"></i><b>5</b> Shortcuts - Double tap</a><ul>
@@ -163,7 +165,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to Data Science with R</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to Data Science with R 🙀</a>
           </h1>
         </div>
 
@@ -183,70 +185,70 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <p>The same we can say to all sort of data science projects. We are always required by different stakeholders to be pull in many different directions. For us, we have to nail down where we are and how to initiate a new project first.</p>
 <p>First of all, we find where we stand.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>here<span class="op">::</span><span class="kw">here</span>()</a>
-<a class="sourceLine" id="cb6-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb6-3" data-line-number="3">[<span class="dv">1</span>] <span class="st">&quot;/Users/sushicat/Dropbox/R_Me/Hero_book&quot;</span></a></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>here<span class="op">::</span><span class="kw">here</span>()</a>
+<a class="sourceLine" id="cb4-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb4-3" data-line-number="3">[<span class="dv">1</span>] <span class="st">&quot;/Users/sushicat/Dropbox/R_Me/Hero_book&quot;</span></a></code></pre></div>
 <p>Second, we find out what we are being surrounded.</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>fs<span class="op">::</span><span class="kw">dir_ls</span>()</a>
-<a class="sourceLine" id="cb7-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb7-3" data-line-number="3"><span class="dv">01</span><span class="op">-</span>think.Rmd           <span class="dv">02</span><span class="op">-</span>pm.Rmd              <span class="dv">03</span><span class="op">-</span>load<span class="op">-</span>data.Rmd       <span class="dv">04</span><span class="op">-</span>tidy<span class="op">-</span>data.Rmd       </a>
-<a class="sourceLine" id="cb7-4" data-line-number="4"><span class="dv">05</span><span class="op">-</span>bayesian.Rmd        <span class="dv">06</span><span class="op">-</span>Elastigirl_<span class="fl">1.</span>Rmd <span class="dv">06</span>_Elastigirl_<span class="fl">1.</span>R   <span class="dv">20</span><span class="op">-</span>references.Rmd      </a>
-<a class="sourceLine" id="cb7-5" data-line-number="5">CreditCard             Creditcard_hack.R      Data                   Hero_book.Rproj        </a>
-<a class="sourceLine" id="cb7-6" data-line-number="6">Hero_book.log          README.md              _book                  _bookdown.yml          </a>
-<a class="sourceLine" id="cb7-7" data-line-number="7">_bookdown_files        _output.yml            book.bib               index.Rmd              </a>
-<a class="sourceLine" id="cb7-8" data-line-number="8">packages.bib           preamble.tex           style.css </a></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>fs<span class="op">::</span><span class="kw">dir_ls</span>()</a>
+<a class="sourceLine" id="cb5-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb5-3" data-line-number="3"><span class="dv">01</span><span class="op">-</span>think.Rmd           <span class="dv">02</span><span class="op">-</span>pm.Rmd              <span class="dv">03</span><span class="op">-</span>load<span class="op">-</span>data.Rmd       <span class="dv">04</span><span class="op">-</span>tidy<span class="op">-</span>data.Rmd       </a>
+<a class="sourceLine" id="cb5-4" data-line-number="4"><span class="dv">05</span><span class="op">-</span>bayesian.Rmd        <span class="dv">06</span><span class="op">-</span>Elastigirl_<span class="fl">1.</span>Rmd <span class="dv">06</span>_Elastigirl_<span class="fl">1.</span>R   <span class="dv">20</span><span class="op">-</span>references.Rmd      </a>
+<a class="sourceLine" id="cb5-5" data-line-number="5">CreditCard             Creditcard_hack.R      Data                   Hero_book.Rproj        </a>
+<a class="sourceLine" id="cb5-6" data-line-number="6">Hero_book.log          README.md              _book                  _bookdown.yml          </a>
+<a class="sourceLine" id="cb5-7" data-line-number="7">_bookdown_files        _output.yml            book.bib               index.Rmd              </a>
+<a class="sourceLine" id="cb5-8" data-line-number="8">packages.bib           preamble.tex           style.css </a></code></pre></div>
 <p>Third, we pick somewhere (in this case - the data folder) to explore further.</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>fs<span class="op">::</span><span class="kw">dir_ls</span>(<span class="st">&quot;Data&quot;</span>)</a>
-<a class="sourceLine" id="cb8-2" data-line-number="2"><span class="op">&gt;</span><span class="st"> </span>fs<span class="op">::</span><span class="kw">dir_ls</span>(<span class="st">&quot;Data/Subway_delays&quot;</span>)</a>
-<a class="sourceLine" id="cb8-3" data-line-number="3"></a>
-<a class="sourceLine" id="cb8-4" data-line-number="4">Data<span class="op">/</span>Subway_delays<span class="op">/</span>Subway<span class="op">&amp;</span>SRT_Logs_April_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb8-5" data-line-number="5">Data<span class="op">/</span>Subway_delays<span class="op">/</span>Subway<span class="op">&amp;</span>SRT_Logs_February_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb8-6" data-line-number="6">Data<span class="op">/</span>Subway_delays<span class="op">/</span>Subway<span class="op">&amp;</span>SRT_Logs_March_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb8-7" data-line-number="7">Data<span class="op">/</span>Subway_delays<span class="op">/</span>Subway<span class="op">&amp;</span>SRT_Logs_May_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb8-8" data-line-number="8">Data<span class="op">/</span>Subway_delays<span class="op">/</span>Subway_<span class="op">&amp;</span><span class="kw">_SRT_Logs_</span>(August_<span class="dv">2018</span>).xlsx</a>
-<a class="sourceLine" id="cb8-9" data-line-number="9">Data<span class="op">/</span>Subway_delays<span class="op">/</span>Subway_<span class="op">&amp;</span><span class="kw">_SRT_Logs_</span>(September_<span class="dv">2018</span>).xlsx</a>
-<a class="sourceLine" id="cb8-10" data-line-number="10">Data<span class="op">/</span>Subway_delays<span class="op">/</span>Subway_<span class="op">&amp;</span>_SRT_Logs_December_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb8-11" data-line-number="11">Data<span class="op">/</span>Subway_delays<span class="op">/</span>Subway_<span class="op">&amp;</span>_SRT_Logs_November_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb8-12" data-line-number="12">Data<span class="op">/</span>Subway_delays<span class="op">/</span><span class="kw">Subway_SRT_Logs</span>(January <span class="dv">2018</span>).xlsx</a>
-<a class="sourceLine" id="cb8-13" data-line-number="13">Data<span class="op">/</span>Subway_delays<span class="op">/</span><span class="kw">Subway_SRT_Logs</span>(July_<span class="dv">2018</span>).xlsx</a>
-<a class="sourceLine" id="cb8-14" data-line-number="14">Data<span class="op">/</span>Subway_delays<span class="op">/</span><span class="kw">Subway_SRT_Logs</span>(June2018).xlsx</a>
-<a class="sourceLine" id="cb8-15" data-line-number="15">Data<span class="op">/</span>Subway_delays<span class="op">/</span><span class="kw">Subway_SRT_Logs</span>(October <span class="dv">2018</span>).xlsx</a></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>fs<span class="op">::</span><span class="kw">dir_ls</span>(<span class="st">&quot;Data&quot;</span>)</a>
+<a class="sourceLine" id="cb6-2" data-line-number="2"><span class="op">&gt;</span><span class="st"> </span>fs<span class="op">::</span><span class="kw">dir_ls</span>(<span class="st">&quot;Data/Subway_delays&quot;</span>)</a>
+<a class="sourceLine" id="cb6-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb6-4" data-line-number="4">Data<span class="op">/</span>Subway_delays<span class="op">/</span>Subway<span class="op">&amp;</span>SRT_Logs_April_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb6-5" data-line-number="5">Data<span class="op">/</span>Subway_delays<span class="op">/</span>Subway<span class="op">&amp;</span>SRT_Logs_February_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb6-6" data-line-number="6">Data<span class="op">/</span>Subway_delays<span class="op">/</span>Subway<span class="op">&amp;</span>SRT_Logs_March_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb6-7" data-line-number="7">Data<span class="op">/</span>Subway_delays<span class="op">/</span>Subway<span class="op">&amp;</span>SRT_Logs_May_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb6-8" data-line-number="8">Data<span class="op">/</span>Subway_delays<span class="op">/</span>Subway_<span class="op">&amp;</span><span class="kw">_SRT_Logs_</span>(August_<span class="dv">2018</span>).xlsx</a>
+<a class="sourceLine" id="cb6-9" data-line-number="9">Data<span class="op">/</span>Subway_delays<span class="op">/</span>Subway_<span class="op">&amp;</span><span class="kw">_SRT_Logs_</span>(September_<span class="dv">2018</span>).xlsx</a>
+<a class="sourceLine" id="cb6-10" data-line-number="10">Data<span class="op">/</span>Subway_delays<span class="op">/</span>Subway_<span class="op">&amp;</span>_SRT_Logs_December_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb6-11" data-line-number="11">Data<span class="op">/</span>Subway_delays<span class="op">/</span>Subway_<span class="op">&amp;</span>_SRT_Logs_November_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb6-12" data-line-number="12">Data<span class="op">/</span>Subway_delays<span class="op">/</span><span class="kw">Subway_SRT_Logs</span>(January <span class="dv">2018</span>).xlsx</a>
+<a class="sourceLine" id="cb6-13" data-line-number="13">Data<span class="op">/</span>Subway_delays<span class="op">/</span><span class="kw">Subway_SRT_Logs</span>(July_<span class="dv">2018</span>).xlsx</a>
+<a class="sourceLine" id="cb6-14" data-line-number="14">Data<span class="op">/</span>Subway_delays<span class="op">/</span><span class="kw">Subway_SRT_Logs</span>(June2018).xlsx</a>
+<a class="sourceLine" id="cb6-15" data-line-number="15">Data<span class="op">/</span>Subway_delays<span class="op">/</span><span class="kw">Subway_SRT_Logs</span>(October <span class="dv">2018</span>).xlsx</a></code></pre></div>
 <p>Alternatively, we can use the tree strcuture to show the folder.</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>fs<span class="op">::</span><span class="kw">dir_tree</span>(<span class="st">&quot;Data/Subway_delays&quot;</span>)</a>
-<a class="sourceLine" id="cb9-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb9-3" data-line-number="3">Data<span class="op">/</span>Subway_delays</a>
-<a class="sourceLine" id="cb9-4" data-line-number="4">├── Subway<span class="op">&amp;</span>SRT_Logs_April_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb9-5" data-line-number="5">├── Subway<span class="op">&amp;</span>SRT_Logs_February_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb9-6" data-line-number="6">├── Subway<span class="op">&amp;</span>SRT_Logs_March_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb9-7" data-line-number="7">├── Subway<span class="op">&amp;</span>SRT_Logs_May_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb9-8" data-line-number="8">├── Subway_<span class="op">&amp;</span><span class="kw">_SRT_Logs_</span>(August_<span class="dv">2018</span>).xlsx</a>
-<a class="sourceLine" id="cb9-9" data-line-number="9">├── Subway_<span class="op">&amp;</span><span class="kw">_SRT_Logs_</span>(September_<span class="dv">2018</span>).xlsx</a>
-<a class="sourceLine" id="cb9-10" data-line-number="10">├── Subway_<span class="op">&amp;</span>_SRT_Logs_December_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb9-11" data-line-number="11">├── Subway_<span class="op">&amp;</span>_SRT_Logs_November_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb9-12" data-line-number="12">├── <span class="kw">Subway_SRT_Logs</span>(January <span class="dv">2018</span>).xlsx</a>
-<a class="sourceLine" id="cb9-13" data-line-number="13">├── <span class="kw">Subway_SRT_Logs</span>(July_<span class="dv">2018</span>).xlsx</a>
-<a class="sourceLine" id="cb9-14" data-line-number="14">├── <span class="kw">Subway_SRT_Logs</span>(June2018).xlsx</a>
-<a class="sourceLine" id="cb9-15" data-line-number="15">└── <span class="kw">Subway_SRT_Logs</span>(October <span class="dv">2018</span>).xlsx</a></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>fs<span class="op">::</span><span class="kw">dir_tree</span>(<span class="st">&quot;Data/Subway_delays&quot;</span>)</a>
+<a class="sourceLine" id="cb7-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb7-3" data-line-number="3">Data<span class="op">/</span>Subway_delays</a>
+<a class="sourceLine" id="cb7-4" data-line-number="4">├── Subway<span class="op">&amp;</span>SRT_Logs_April_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb7-5" data-line-number="5">├── Subway<span class="op">&amp;</span>SRT_Logs_February_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb7-6" data-line-number="6">├── Subway<span class="op">&amp;</span>SRT_Logs_March_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb7-7" data-line-number="7">├── Subway<span class="op">&amp;</span>SRT_Logs_May_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb7-8" data-line-number="8">├── Subway_<span class="op">&amp;</span><span class="kw">_SRT_Logs_</span>(August_<span class="dv">2018</span>).xlsx</a>
+<a class="sourceLine" id="cb7-9" data-line-number="9">├── Subway_<span class="op">&amp;</span><span class="kw">_SRT_Logs_</span>(September_<span class="dv">2018</span>).xlsx</a>
+<a class="sourceLine" id="cb7-10" data-line-number="10">├── Subway_<span class="op">&amp;</span>_SRT_Logs_December_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb7-11" data-line-number="11">├── Subway_<span class="op">&amp;</span>_SRT_Logs_November_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb7-12" data-line-number="12">├── <span class="kw">Subway_SRT_Logs</span>(January <span class="dv">2018</span>).xlsx</a>
+<a class="sourceLine" id="cb7-13" data-line-number="13">├── <span class="kw">Subway_SRT_Logs</span>(July_<span class="dv">2018</span>).xlsx</a>
+<a class="sourceLine" id="cb7-14" data-line-number="14">├── <span class="kw">Subway_SRT_Logs</span>(June2018).xlsx</a>
+<a class="sourceLine" id="cb7-15" data-line-number="15">└── <span class="kw">Subway_SRT_Logs</span>(October <span class="dv">2018</span>).xlsx</a></code></pre></div>
 <p>Fourth, we make a shortcut if this is where we’d like to use or come back later.</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>fs<span class="op">::</span><span class="kw">dir_tree</span>(here<span class="op">::</span><span class="kw">here</span>(<span class="st">&quot;Data&quot;</span>, <span class="st">&quot;Subway_delays&quot;</span>))</a>
-<a class="sourceLine" id="cb10-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb10-3" data-line-number="3"><span class="op">/</span>Users<span class="op">/</span>goal<span class="op">/</span>Dropbox<span class="op">/</span>R_Me<span class="op">/</span>Hero_book<span class="op">/</span>Data<span class="op">/</span>Subway_delays</a>
-<a class="sourceLine" id="cb10-4" data-line-number="4">├── Subway<span class="op">&amp;</span>SRT_Logs_April_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb10-5" data-line-number="5">├── Subway<span class="op">&amp;</span>SRT_Logs_February_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb10-6" data-line-number="6">├── Subway<span class="op">&amp;</span>SRT_Logs_March_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb10-7" data-line-number="7">├── Subway<span class="op">&amp;</span>SRT_Logs_May_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb10-8" data-line-number="8">├── Subway_<span class="op">&amp;</span><span class="kw">_SRT_Logs_</span>(August_<span class="dv">2018</span>).xlsx</a>
-<a class="sourceLine" id="cb10-9" data-line-number="9">├── Subway_<span class="op">&amp;</span><span class="kw">_SRT_Logs_</span>(September_<span class="dv">2018</span>).xlsx</a>
-<a class="sourceLine" id="cb10-10" data-line-number="10">├── Subway_<span class="op">&amp;</span>_SRT_Logs_December_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb10-11" data-line-number="11">├── Subway_<span class="op">&amp;</span>_SRT_Logs_November_<span class="fl">2018.</span>xlsx</a>
-<a class="sourceLine" id="cb10-12" data-line-number="12">├── <span class="kw">Subway_SRT_Logs</span>(January <span class="dv">2018</span>).xlsx</a>
-<a class="sourceLine" id="cb10-13" data-line-number="13">├── <span class="kw">Subway_SRT_Logs</span>(July_<span class="dv">2018</span>).xlsx</a>
-<a class="sourceLine" id="cb10-14" data-line-number="14">├── <span class="kw">Subway_SRT_Logs</span>(June2018).xlsx</a>
-<a class="sourceLine" id="cb10-15" data-line-number="15">└── <span class="kw">Subway_SRT_Logs</span>(October <span class="dv">2018</span>).xlsx</a></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="op">&gt;</span><span class="st"> </span>fs<span class="op">::</span><span class="kw">dir_tree</span>(here<span class="op">::</span><span class="kw">here</span>(<span class="st">&quot;Data&quot;</span>, <span class="st">&quot;Subway_delays&quot;</span>))</a>
+<a class="sourceLine" id="cb8-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb8-3" data-line-number="3"><span class="op">/</span>Users<span class="op">/</span>goal<span class="op">/</span>Dropbox<span class="op">/</span>R_Me<span class="op">/</span>Hero_book<span class="op">/</span>Data<span class="op">/</span>Subway_delays</a>
+<a class="sourceLine" id="cb8-4" data-line-number="4">├── Subway<span class="op">&amp;</span>SRT_Logs_April_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb8-5" data-line-number="5">├── Subway<span class="op">&amp;</span>SRT_Logs_February_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb8-6" data-line-number="6">├── Subway<span class="op">&amp;</span>SRT_Logs_March_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb8-7" data-line-number="7">├── Subway<span class="op">&amp;</span>SRT_Logs_May_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb8-8" data-line-number="8">├── Subway_<span class="op">&amp;</span><span class="kw">_SRT_Logs_</span>(August_<span class="dv">2018</span>).xlsx</a>
+<a class="sourceLine" id="cb8-9" data-line-number="9">├── Subway_<span class="op">&amp;</span><span class="kw">_SRT_Logs_</span>(September_<span class="dv">2018</span>).xlsx</a>
+<a class="sourceLine" id="cb8-10" data-line-number="10">├── Subway_<span class="op">&amp;</span>_SRT_Logs_December_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb8-11" data-line-number="11">├── Subway_<span class="op">&amp;</span>_SRT_Logs_November_<span class="fl">2018.</span>xlsx</a>
+<a class="sourceLine" id="cb8-12" data-line-number="12">├── <span class="kw">Subway_SRT_Logs</span>(January <span class="dv">2018</span>).xlsx</a>
+<a class="sourceLine" id="cb8-13" data-line-number="13">├── <span class="kw">Subway_SRT_Logs</span>(July_<span class="dv">2018</span>).xlsx</a>
+<a class="sourceLine" id="cb8-14" data-line-number="14">├── <span class="kw">Subway_SRT_Logs</span>(June2018).xlsx</a>
+<a class="sourceLine" id="cb8-15" data-line-number="15">└── <span class="kw">Subway_SRT_Logs</span>(October <span class="dv">2018</span>).xlsx</a></code></pre></div>
 <p>Let’s chain everything together. We present the folder with the dataset - it’s like placing the meat and veggie into an oven tray. We then put the tray to an oven called <code>purrr</code> and it would import all the spreadsheet files in this particular folder - it’s like an oven. Finally, we use the cleaning wipe from <code>janitor</code> and clean up the the column names - the ambiguity bit.</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" data-line-number="1">delays_clean &lt;-<span class="st"> </span>fs<span class="op">::</span><span class="kw">dir_ls</span>(here<span class="op">::</span><span class="kw">here</span>(<span class="st">&quot;Data&quot;</span>, <span class="st">&quot;Subway_delays&quot;</span>)) <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb11-2" data-line-number="2"><span class="st">  </span>purrr<span class="op">::</span><span class="kw">map_dfr</span>(readxl<span class="op">::</span>read_excel) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb11-3" data-line-number="3"><span class="st">  </span>janitor<span class="op">::</span><span class="kw">clean_names</span>()</a></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1">delays_clean &lt;-<span class="st"> </span>fs<span class="op">::</span><span class="kw">dir_ls</span>(here<span class="op">::</span><span class="kw">here</span>(<span class="st">&quot;Data&quot;</span>, <span class="st">&quot;Subway_delays&quot;</span>)) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb9-2" data-line-number="2"><span class="st">  </span>purrr<span class="op">::</span><span class="kw">map_dfr</span>(readxl<span class="op">::</span>read_excel) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb9-3" data-line-number="3"><span class="st">  </span>janitor<span class="op">::</span><span class="kw">clean_names</span>()</a></code></pre></div>
 <p><a href="https://sharlagelfand.netlify.com/posts/usethis-for-reporting/" class="uri">https://sharlagelfand.netlify.com/posts/usethis-for-reporting/</a></p>
 
 </div>
@@ -306,20 +308,6 @@ gitbook.start({
 });
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 </body>
 
 </html>
