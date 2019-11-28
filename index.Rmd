@@ -19,7 +19,7 @@ description: "This is a minimal example of training people to start doing data m
 
 > A hero is somebody who voluntarily walks into the unknown. To become a hero in R, you have to voluntarily walk into the unknown of R and the world of data science.  
 
-## Goal
+## Background
 
 This is a R learning and sharing platform for data manipulation and management. I will gradually build in more data science materials here. My ultimate goal is to consolidate all the learning experience and knowledge in R and share it through this platform. 
 

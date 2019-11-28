@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>10 RStudio shortcuts | Data Manipulation and Management in R 🙀</title>
+  <title>2 Begin with the end | Data Manipulation and Management in R 🙀</title>
   <meta name="description" content="This is a minimal example of training people to start doing data manipulation and management in R." />
   <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="10 RStudio shortcuts | Data Manipulation and Management in R 🙀" />
+  <meta property="og:title" content="2 Begin with the end | Data Manipulation and Management in R 🙀" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="10 RStudio shortcuts | Data Manipulation and Management in R 🙀" />
+  <meta name="twitter:title" content="2 Begin with the end | Data Manipulation and Management in R 🙀" />
   
   <meta name="twitter:description" content="This is a minimal example of training people to start doing data manipulation and management in R." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="data-manipulation-iii.html"/>
-<link rel="next" href="visualisation.html"/>
+<link rel="prev" href="index.html"/>
+<link rel="next" href="mari-kondo.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -183,44 +183,29 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="rstudio-shortcuts" class="section level1">
-<h1><span class="header-section-number">10</span> RStudio shortcuts</h1>
+<div id="begin-with-the-end" class="section level1">
+<h1><span class="header-section-number">2</span> Begin with the end</h1>
+<p>Stephen Covey, author of “The 7 Habits of Highly Effective People”, Habit#2:</p>
 <blockquote>
-<p>Double tap wins.</p>
+<p>Habit 2: Begin With the End in Mind.</p>
 </blockquote>
-<div id="dividing-code-sections" class="section level2">
-<h2><span class="header-section-number">10.1</span> Dividing code sections</h2>
-<ul>
-<li>Insert Section — Ctrl+Shift+R (Cmd+Shift+R on the Mac)</li>
-<li>Jump To — Shift+Alt+J</li>
-</ul>
-<p><a href="https://github.com/ThinkR-open/littleboxes">RStudio Addin - creates boxed in titles in an Rscript</a></p>
-<pre><code>devtools::install_github(&quot;ThinkR-open/littleboxes&quot;)</code></pre>
+<div>
+<center>
+<img src="https://shopbypayment.com/wp-content/uploads/2018/11/begin-with-the-end-in-mind.jpg" alt="">
+</center>
 </div>
-<div id="pipe-sign" class="section level2">
-<h2><span class="header-section-number">10.2</span> Pipe sign “%&gt;%”</h2>
-<ul>
-<li>“Insert %&gt;%” inserts “%&gt;%” (Shift-ALT-m or Shift-cmd-m</li>
-</ul>
-<p>One is to create a new dataset and the other one is to re-assign the new data elements into an existing dataset.</p>
-<pre><code>db &lt;- df %&gt;% 
-      select(1:3) %&gt;% 
-      filter(mpg &gt; 20, cyl == 6)
-
-df %&lt;&gt;% select(1:3) %&gt;%
-        filter(mpg &gt; 20, cyl == 6)</code></pre>
-<pre><code># Good
-iris %&gt;%
-  group_by(Species) %&gt;%
-  summarize_if(is.numeric, mean) %&gt;%
-  ungroup() %&gt;%
-  gather(measure, value, -Species) %&gt;%
-  arrange(value)
-
-# Bad
-iris %&gt;% group_by(Species) %&gt;% summarize_all(mean) %&gt;%
-ungroup %&gt;% gather(measure, value, -Species) %&gt;%
-arrange(value)</code></pre>
+<div id="goalpost" class="section level2">
+<h2><span class="header-section-number">2.1</span> Goalpost</h2>
+<p>All beginnings are difficult. In data science, one reason making all the beginnings harder is that we just don’t know what sort of question we’re trying to answer. That’s why we often run into the dilemma of “Moving The Goalposts”. It’s not necessarily wrong but it can become frustrated if you get asked to go north first and south later. But then the answer is in fact next to you.</p>
+<p>For data manipulation and management, we should think about the end product first and do more reverse thinking than forward thinking. For example, what sort of end products do we commonly need to include in the end product? Data visualisation? Poster? Coding sharing? Data Management? Journal article write-up? The key point is that how we can improve the workflow across need end and we can easily generate and reproduce our end product.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">par</span>(<span class="dt">mar =</span> <span class="kw">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, <span class="fl">.1</span>, <span class="fl">.1</span>))</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="kw">plot</span>(pressure, <span class="dt">type =</span> <span class="st">&#39;b&#39;</span>, <span class="dt">pch =</span> <span class="dv">19</span>)</a></code></pre></div>
+<div class="figure" style="text-align: center"><span id="fig:nice-fig"></span>
+<img src="R_DE_files/figure-html/nice-fig-1.png" alt="Here is a nice figure!" width="80%" />
+<p class="caption">
+Figure 2.1: Here is a nice figure!
+</p>
+</div>
 
 </div>
 </div>
@@ -229,8 +214,8 @@ arrange(value)</code></pre>
           </div>
         </div>
       </div>
-<a href="data-manipulation-iii.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="visualisation.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="mari-kondo.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

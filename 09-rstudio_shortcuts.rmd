@@ -11,11 +11,6 @@
 ```
 devtools::install_github("ThinkR-open/littleboxes")
 ```
-
-https://riptutorial.com/r/example/13622/assignment-with-----
-
-https://style.tidyverse.org/pipes.html
-
 ## Pipe sign "%>%"
 
 - "Insert %>%" inserts "%>%" (Shift-ALT-m or Shift-cmd-m
