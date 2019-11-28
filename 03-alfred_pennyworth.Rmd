@@ -6,7 +6,7 @@
 <img src="https://ficquotes.com/images/quotes/alfred-batman-begins-2005-1044.jpg" alt="">
 </center></div>  
 
-## Document your work
+## Log your work
 
 First, choose _New Project_ and _New Directiory_. 
 
