@@ -1,5 +1,5 @@
 # Data Manipulation I
 
-Some _significant_ applications are demonstrated in this chapter.
+Some _significant_ writing are coming in this chapter.
 
 ## dplyr vs data.table
