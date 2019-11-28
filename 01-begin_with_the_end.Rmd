@@ -1,6 +1,6 @@
 # Begin with the end
 
-Stephen Covey, author of "The 7 Habits of Highly Effective People".
+Stephen Covey is the author of "The 7 Habits of Highly Effective People".
 
 > Habit 2: Begin With the End in Mind. 
 
@@ -8,7 +8,7 @@ Stephen Covey, author of "The 7 Habits of Highly Effective People".
 <img src="https://shopbypayment.com/wp-content/uploads/2018/11/begin-with-the-end-in-mind.jpg" alt="">
 </center></div>  
 
-## Goalpost
+## Set your goalpost
 
 All beginnings are difficult. In data science, one reason making all the beginnings harder is that we just don't know what sort of question we're trying to answer. That's why we often run into the dilemma of "Moving The Goalposts". It's not necessarily wrong but it can become frustrated if you get asked to go north first and south later. But then the answer is in fact next to you. 
 
