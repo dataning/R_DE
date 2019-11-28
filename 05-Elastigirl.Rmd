@@ -1,4 +1,4 @@
-# Elastigirl is Here
+# Elastigirl
 
 > When designing the Incredible family, Brad Bird wanted each of their superpowers to be related to their personality. He felt that as a mother, Helen was required by society to be pulled in many different directions, which led to her being given an elastic ability.
 
@@ -8,6 +8,7 @@
 
 The same we can say to all sort of data science projects. We are always required by different stakeholders to be pull in many different directions. For us, we have to nail down where we are and how to initiate a new project first. 
 
+## Tiki-taka your workflow
 
 First of all, we find where we stand. 
 ```{r eval=FALSE}
@@ -92,5 +93,3 @@ delays_clean <- fs::dir_ls(here::here("Data", "Subway_delays")) %>%
   purrr::map_dfr(readxl::read_excel) %>%
   janitor::clean_names()
 ```
-
-https://sharlagelfand.netlify.com/posts/usethis-for-reporting/

@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>2 The End Defines The Beginning | Data Manipulation and Management in R 🙀</title>
+  <title>11 Modelling | Data Manipulation and Management in R 🙀</title>
   <meta name="description" content="This is a minimal example of training people to start doing data manipulation and management in R." />
   <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="2 The End Defines The Beginning | Data Manipulation and Management in R 🙀" />
+  <meta property="og:title" content="11 Modelling | Data Manipulation and Management in R 🙀" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="2 The End Defines The Beginning | Data Manipulation and Management in R 🙀" />
+  <meta name="twitter:title" content="11 Modelling | Data Manipulation and Management in R 🙀" />
   
   <meta name="twitter:description" content="This is a minimal example of training people to start doing data manipulation and management in R." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html"/>
-<link rel="next" href="alfred-pennyworth.html"/>
+<link rel="prev" href="rstudio-shortcuts.html"/>
+<link rel="next" href="introduction-to-machine-learning.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -157,8 +157,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="10.1" data-path="rstudio-shortcuts.html"><a href="rstudio-shortcuts.html#dividing-code-sections"><i class="fa fa-check"></i><b>10.1</b> Dividing code sections</a></li>
 <li class="chapter" data-level="10.2" data-path="rstudio-shortcuts.html"><a href="rstudio-shortcuts.html#pipe-sign"><i class="fa fa-check"></i><b>10.2</b> Pipe sign “%&gt;%”</a></li>
 </ul></li>
-<li class="chapter" data-level="11" data-path="visualisation.html"><a href="visualisation.html"><i class="fa fa-check"></i><b>11</b> Visualisation</a><ul>
-<li class="chapter" data-level="11.1" data-path="visualisation.html"><a href="visualisation.html#ggplot2-family"><i class="fa fa-check"></i><b>11.1</b> ggplot2 family</a></li>
+<li class="chapter" data-level="11" data-path="modelling.html"><a href="modelling.html"><i class="fa fa-check"></i><b>11</b> Modelling</a><ul>
+<li class="chapter" data-level="11.1" data-path="modelling.html"><a href="modelling.html#tidymodel"><i class="fa fa-check"></i><b>11.1</b> tidymodel</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="introduction-to-machine-learning.html"><a href="introduction-to-machine-learning.html"><i class="fa fa-check"></i><b>12</b> Introduction to Machine Learning</a><ul>
+<li class="chapter" data-level="12.1" data-path="introduction-to-machine-learning.html"><a href="introduction-to-machine-learning.html#supervised-learning"><i class="fa fa-check"></i><b>12.1</b> Supervised learning</a></li>
+<li class="chapter" data-level="12.2" data-path="introduction-to-machine-learning.html"><a href="introduction-to-machine-learning.html#unsupervised-learning"><i class="fa fa-check"></i><b>12.2</b> Unsupervised learning</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
@@ -181,27 +185,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="the-end-defines-the-beginning" class="section level1">
-<h1><span class="header-section-number">2</span> The End Defines The Beginning</h1>
-<p>All beginnings are difficult. In data science, one reason making all the beginnings harder is that we just don’t know what sort of question we’re trying to answer. That’s why we often run into the dilemma of “Moving The Goalposts”. It’s not necessarily wrong but it can become frustrated if you get asked to go north first and south later. But then the answer is in fact next to you.</p>
-<p>For data manipulation and management, we should think about the end product first and do more reverse thinking than forward thinking. For example, what sort of end products do we commonly need to include in the end product? Data visualisation? Poster? Coding sharing? Data Management? Journal article write-up? The key point is that how we can improve the workflow across need end and we can easily generate and reproduce our end product.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">par</span>(<span class="dt">mar =</span> <span class="kw">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, <span class="fl">.1</span>, <span class="fl">.1</span>))</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="kw">plot</span>(pressure, <span class="dt">type =</span> <span class="st">&#39;b&#39;</span>, <span class="dt">pch =</span> <span class="dv">19</span>)</a></code></pre></div>
-<div class="figure" style="text-align: center"><span id="fig:nice-fig"></span>
-<img src="R_DE_files/figure-html/nice-fig-1.png" alt="Here is a nice figure!" width="80%" />
-<p class="caption">
-Figure 2.1: Here is a nice figure!
-</p>
-</div>
+<div id="modelling" class="section level1">
+<h1><span class="header-section-number">11</span> Modelling</h1>
+<div id="tidymodel" class="section level2">
+<h2><span class="header-section-number">11.1</span> tidymodel</h2>
 
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="alfred-pennyworth.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="rstudio-shortcuts.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="introduction-to-machine-learning.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

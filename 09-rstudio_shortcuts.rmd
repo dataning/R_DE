@@ -1,6 +1,8 @@
-# Shortcuts - Double tap
+# RStudio shortcuts
 
-## Code section 
+> Double tap wins. 
+
+## Dividing code sections 
 
 - Insert Section — Ctrl+Shift+R (Cmd+Shift+R on the Mac)
 - Jump To — Shift+Alt+J
@@ -14,9 +16,8 @@ https://riptutorial.com/r/example/13622/assignment-with-----
 
 https://style.tidyverse.org/pipes.html
 
-## Tidyverse
+## Pipe sign "%>%"
 
-### "%>%"
 - "Insert %>%" inserts "%>%" (Shift-ALT-m or Shift-cmd-m
 
 One is to create a new dataset and the other one is to re-assign the new data elements into an existing dataset. 

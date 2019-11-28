@@ -1,4 +1,8 @@
-# Documentation - bookdown-styled
+# Diary, The Only Memory
+
+> Memory is the diary we all carry about with us. But memory is also fragile and fallible. 
+
+## Document your work
 
 First, choose _New Project_ and _New Directiory_. 
 

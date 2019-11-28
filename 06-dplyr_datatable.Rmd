@@ -1,7 +1,5 @@
-# Data cleaning
+# Data Manipulation I
 
 Some _significant_ applications are demonstrated in this chapter.
 
-## dplyr
-
-## data.table
+## dplyr vs data.table
