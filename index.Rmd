@@ -1,5 +1,5 @@
 --- 
-title: Introduction to Data Science with R 🙀
+title: Data Manipulation and Management in R 🙀
 author:
   - name: Ning Lu
     affiliation: Bradford Institute of Health Research (BIHR)
@@ -21,8 +21,8 @@ description: "This is a minimal example of training people to start doing data m
 
 ## Goal
 
-This is a R learning and sharing platform. You can learn how to use R to manage your data manipulation and management here. I will gradually build in more data science materials here. My ultimate goal is to consolidate all the R learning experience and share them through this platform. 
+This is a R learning and sharing platform for data manipulation and management. I will gradually build in more data science materials here. My ultimate goal is to consolidate all the learning experience and knowledge in R and share it through this platform. 
 
 While the platform is open to anyone who is interested in learning data manipulation and management with R, the primary target audience is members of Bradford Institute of Health Research (BIHR), Bradford Teaching Hospitals NHS Foundation Trust (BTHFT), Centre for Applied Education Research (CAER) and Leeds Data Science Society. 
 
-When you visit here, I don't expect you to have a lot of R knowledge. However, I'd hope that when you leave here, you'd at least learn something new - something would make you a hero 😎 for a while. 
+When you come here, I don't expect you to have a lot of R knowledge. However, I hope that when you leave here, you'd at least learn something new in data manipulation and management through R - something would make you a hero 😎 for a while. 
