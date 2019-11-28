@@ -1,6 +1,6 @@
 # RMarkdown with Sublime
 
-> Memory is the diary we all carry about with us. But memory is also fragile and fallible. We need to write down things. 
+> Memory is the diary we all carry about with us. But memory is also fragile and fallible. We need to start documenting things. 
 
 One of the best things for R markdown is that you can write and code on the same surface. However, the interface of RStudio feels like more "brief writing" than "proper writing". For all the writing, I prefer to do it in Sublime because it's fast and code-integrated. 
 
