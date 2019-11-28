@@ -1,8 +1,8 @@
-#  Alfred Pennyworth
+# Mari Kondo
 
-> What was the point of all those push-ups if you can’t even lift up a bloody log?
+> Memory is the diary we all carry about with us. But memory is also fragile and fallible. 
 
-## Housekeeping your work
+## Tidy your files
 
 There're a number of ways to organise data science work. The key is to set up Rproject and GitHub. Here we list two main approaches to achieve this end.  
 
