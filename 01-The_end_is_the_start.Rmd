@@ -1,4 +1,4 @@
-# The End Defines The Start
+# The End Defines The Beginning
 
 All beginnings are difficult. In data science, one reason making all the beginnings harder is that we just don't know what sort of question we're trying to answer. That's why we often run into the dilemma of "Moving The Goalposts". It's not necessarily wrong but it can become frustrated if you get asked to go north first and south later. But then the answer is in fact next to you. 
 
