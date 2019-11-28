@@ -1,21 +1,11 @@
-# Think about your end before your start
+# The End Defines The Means and The Start
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+All beginnings are difficult. In data science, one reason making all the beginnings harder is that we just don't know what sort of question we're trying to answer. That's why we often run into the dilemma of "Moving The Goalposts". It's not necessarily wrong but it can become frustrated if you get asked to go north first and south later. But then the answer is in fact next to you. 
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+For data manipulation and management, we should think about the end product first and do more reverse thinking than forward thinking. For example, what sort of end products do we commonly need to include in the end product? Data visualisation? Poster? Coding sharing? Data Management? Journal article write-up? The key point is that how we can improve the workflow across need end and we can easily generate and reproduce our end product.    
 
 ```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
 par(mar = c(4, 4, .1, .1))
 plot(pressure, type = 'b', pch = 19)
 ```
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
-
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
-
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
