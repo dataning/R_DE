@@ -1,11 +1,11 @@
 --- 
-title: Data Manipulation and Management in R 🙀
+title: Data Project Management in R 🙀
 author:
   - name: Ning Lu
     affiliation: Bradford Institute of Health Research (BIHR)
-  - name: Bradford Teaching Hospitals NHS Foundation Trust (BTHFT)
+  - name: Bradford Teaching Hospitals NHS Foundation Trust
     affiliation: Centre for Applied Education Research (CAER)
-  - name: Leeds Institute for Data Analytics, University of Leeds (LIDA)
+  - name: Leeds Institute for Data Analytics, University of Leeds
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book

@@ -5,6 +5,6 @@ bookdown::gitbook:
       before: |
         <li><a href="./">To become a hero in R</a></li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with Hero Lab</a></li>
+        <li><a href="https://r.data.education" target="blank">Published by Ning Lu</a></li>
     download: [null]
 

@@ -1,0 +1,7 @@
+library(usethis)
+use_git()
+usethis::use_github()
+install.packages(c("igraph", "Matrix", "rgdal", "writexl"))
+install.packages("odbc")
+install.packages(c("emmeans", "insight"))
+install.packages("odbc")
